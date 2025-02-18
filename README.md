@@ -47,7 +47,7 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votr
 
 4. Lancez le serveur de développement :
    ```bash
-   symfony serve
+   symfony server:start
    ```
    L'application sera accessible sur [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
