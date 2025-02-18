@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    color: #ffa43a;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffbf75;
+    color: #fff;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+/* Links */
+a {
+    color: #75c7ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button-like Links */
+a:focus, a:hover {
+    color: #759eff;
+    transition: color 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Styles spécifiques pour la page de création de tâche */
+.new-task-page {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.new-task-page h1 {
+    color: #ff6f20; /* Couleur d'accent différente pour la page de création */
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.new-task-page a.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #ffbf75;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.new-task-page a.btn-back:hover {
+    background-color: #ffa43a;
+}
+
+/* Formulaire */
+form {
+    margin-top: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #75c7ff; /* Couleur d'accent pour le bouton */
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #759eff;
+}
